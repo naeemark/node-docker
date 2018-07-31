@@ -1,0 +1,25 @@
+{
+  "name": "simple-rest-api",
+  "version": "1.0.0",
+  "description": "testing docker with node-express app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/naeemark/node-docker.git"
+  },
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.18.3"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "docker",
+    "node",
+    "express"
+  ],
+  "author": "Naeem",
+  "license": "MIT"
+}
