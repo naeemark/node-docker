@@ -4,7 +4,7 @@ const app = express();
 
 app.get('/', (req, res) => res.send(
     {
-        greeting: 'Hello World...x!'
+        greeting: 'Hello World...!'
     }
 ));
 
